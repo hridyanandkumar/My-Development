@@ -1,0 +1,149 @@
+#title{
+    background-color: #ff4c68;
+    padding:7% 15%;
+    padding-bottom: 0px;
+    margin-bottom: -120px;
+    
+}
+.container-fluid{
+    padding:0 0 7% 0;
+    margin-top: -3%;
+    font-size: 1.2rem;
+}
+
+.navbar-brand{
+    font-family: Ubuntu;
+    font-weight: bold;
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+.nav-item{
+    font-size: 20px;
+}
+
+.h1-class{
+    font-family:'Montserrat';
+    font-size: 55px;
+    line-height: 1.5;
+    padding-bottom: 10%;
+    color:white;
+    font-weight:600;
+}
+
+.h2-class {
+    font-family:"Montserrat";
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 1.2rem;
+    line-height: 4rem;
+}
+
+.h3-class {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 510;
+    background-color: #f4efef;
+    padding-bottom: 1.2rem;
+}
+p {
+    color: #8f8f8f;
+}
+
+.img-class {
+    width: 60%;
+    transform: rotate(25deg);
+    margin-left: 60px;
+    margin-top: 10%;
+}
+
+#features{
+    padding: 7% 10%;
+    background-color: #fff;
+    position: relative;
+}
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+.icon {
+    color:#ef8172 ;
+    padding-bottom: 1rem;
+}
+
+#testimonials {
+    text-align: center;
+    
+    background-color: #ef8172;
+    color: #fff;
+    font-family: montserrat;
+    
+
+}
+.testimonials-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+
+}
+.carousel-item{
+    padding: 7% 15% ;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing{
+    padding: 7% 8%;
+    text-align: center;
+}
+
+.price-top{
+    padding-bottom: 4%;
+    font-family: Montserrat;
+}
+.col-item{
+    border: 1px solid;
+}
+
+#cta{
+    background-color: #ff4c68;
+    padding: 11% 15%;
+    text-align: center;
+}
+.cta-class{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 60px;
+    color: #fff;
+}
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+.b{
+    margin:1.2rem 7px;
+}
+
+@media (max-width:991px) {
+
+    #title{
+        text-align: center;
+    }
+
+    .img-class{
+        position: static ;
+        transform: rotate(0);
+        margin-bottom: 0px;
+        padding-bottom: 25%;
+
+    }
+    
+}
